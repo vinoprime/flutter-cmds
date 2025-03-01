@@ -1,0 +1,21 @@
+# setup fvm
+# choco should install on windows
+$ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+$ choco --version
+$ choco install fvm -y
+
+
+$ fvm --version
+# to list avalibale flutter versions
+$ fvm ls
+# to install flutter 3.27.1
+$ fvm global 3.27.1
+# to use specifi flutter version
+$ fvm use 3.27.1
+
+# to check flutter version
+$ flutter --version
+
+
+
+
