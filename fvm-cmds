@@ -13,8 +13,13 @@ $ fvm ls
 # to install flutter 3.27.1
 $ fvm global 3.27.1
 
-# to use specifi flutter version
+# to use specifi flutter version for globally
+$ fvm global 3.27.1
+
+# to use specifi flutter version for local project
 $ fvm use 3.27.1
+
+
 
 # to check flutter version
 $ flutter --version
