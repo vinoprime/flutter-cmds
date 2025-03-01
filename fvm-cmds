@@ -6,10 +6,13 @@ $ choco install fvm -y
 
 
 $ fvm --version
+
 # to list avalibale flutter versions
 $ fvm ls
+
 # to install flutter 3.27.1
 $ fvm global 3.27.1
+
 # to use specifi flutter version
 $ fvm use 3.27.1
 
